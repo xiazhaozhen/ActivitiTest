@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD SQL Map Config 3.0//EN"  
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- <typeAliases> </typeAliases> -->
+	<!-- <plugins> </plugins> -->
+	<!-- <settings> 
+        当返回数据类型为map，设置callSettersOnNulls会把值为null的key也返回
+        <setting name="callSettersOnNulls" value="true"/> 
+    </settings> -->
+    <!-- <settings> 
+        <setting name="callSettersOnNulls" value="true"/> 
+    </settings> -->
+	<settings>
+		<!--给mybatis的包加前缀，用于在log4j配置文件里设置打印sql-->
+		<setting name="logPrefix" value="mapper."/>
+	</settings>
+</configuration>
